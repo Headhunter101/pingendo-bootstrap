@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Lato");
+@import url('https://fonts.googleapis.com/css?family=Lato|Lato');
 /*!
  * Default theme for Pingendo 
  * Homepage: http://pingendo.com  
@@ -6568,12 +6568,12 @@ button.close {
  * Licensed under MIT
 */
 /* Google web fonts support */
-/*@import  url("http://fonts.googleapis.com/css?family=");*/
 /* TODO: webkit need this why ?*/
 html,
 body {
   height: 100%;
 }
+/* text-inverse is deprecated */
 .text-inverse {
   color: #ffffff;
 }
@@ -6604,9 +6604,7 @@ body {
 }
 .section {
   position: relative;
-}
-.section > .container > .row {
-  margin: 35px 0px;
+  padding: 35px 0;
 }
 .section .background-image {
   z-index: -1;
@@ -6624,20 +6622,21 @@ body {
   background-color: #337cbb !important;
   color: #ffffff;
 }
-.section-primary .text-inverse {
-  color: #000000;
-}
 .section-info {
   background-color: #5bc0de !important;
+  color: #000000;
 }
 .section-success {
   background-color: #5cb85c !important;
+  color: #ffffff;
 }
 .section-warning {
   background-color: #f0ad4e !important;
+  color: #000000;
 }
 .section-danger {
   background-color: #d9534f !important;
+  color: #000000;
 }
 .cover {
   padding: 30px 15px;
