@@ -71,7 +71,7 @@ html, body{
   padding: @section-spacing 0;
 
   .background-image {
-    z-index:-1;
+    z-index:0;
     position:absolute;
     top:0px;
     width:100%;
@@ -90,26 +90,43 @@ html, body{
 .section-primary {
   background-color: @brand-primary !important;
   color: @btn-primary-color;
+
+  .background-image {
+    opacity: 0.5;
+  }
 }
 
 .section-info {
   background-color: @brand-info !important;
   color: @btn-info-color;
+  .background-image {
+    opacity: 0.5;
+  }
 }
 
 .section-success {
   background-color: @brand-success !important;
   color: @btn-success-color;
+  .background-image {
+    opacity: 0.5;
+  }
 }
+
 
 .section-warning {
   background-color: @brand-warning !important;
   color: @btn-warning-color;
+  .background-image {
+    opacity: 0.5;
+  }
 }
 
 .section-danger {
   background-color: @brand-danger !important;
   color: @btn-warning-color;
+  .background-image {
+    opacity: 0.5;
+  }
 }
 
 
